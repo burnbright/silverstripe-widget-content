@@ -25,7 +25,7 @@ class ContentWidget extends Widget{
 		if($this->Title){
 			return $this->Title;
 		}
-		return parent::Title();
+		return "New Content Widget";
 	}
 
 	function CMSTitle(){
